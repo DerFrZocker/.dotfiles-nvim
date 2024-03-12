@@ -746,6 +746,14 @@ do
 
     jdtls = {},
 
+    ltex = {
+      settings = {
+        ltex = {
+          language = 'auto',
+        },
+      },
+    },
+
     stylua = {}, -- Used to format Lua code
 
     -- Special Lua Config, as recommended by neovim help docs
