@@ -547,6 +547,10 @@ require('lazy').setup({
 
         jdtls = {},
 
+        ltex = {
+          ltex = require 'secrets/ltex',
+        },
+
         lua_ls = {
           -- cmd = {...},
           -- filetypes { ...},
