@@ -657,8 +657,6 @@ require('lazy').setup({
       --  So, we create new capabilities with blink.cmp, and then broadcast that to the servers.
       local capabilities = require('blink.cmp').get_lsp_capabilities()
 
-      local ltexSecrets = require 'secrets.ltex'
-
       -- Enable the following language servers
       --  Feel free to add/remove any LSPs that you want here. They will automatically be installed.
       --
@@ -688,11 +686,6 @@ require('lazy').setup({
           settings = {
             ltex = {
               language = 'auto',
-              languageToolHttpServerUri = ltexSecrets.languageToolHttpServerUri,
-              languageToolOrg = {
-                username = ltexSecrets.languageToolOrg.username,
-                apiKey = ltexSecrets.languageToolOrg.apiKey,
-              },
             },
           },
         },
