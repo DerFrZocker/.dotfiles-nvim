@@ -7,3 +7,6 @@ spell/
 lazy-lock.json
 
 lua/secrets/
+
+.idea
+
